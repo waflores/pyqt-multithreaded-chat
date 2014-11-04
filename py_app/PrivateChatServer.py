@@ -1,25 +1,18 @@
 #!/bin/env python
 
-## @file  filename
-#  @brief Detailed testcase description can go here.
-#         Notice:
-#         - All Doxygen comment blocks must start with ##
-#         - Comments must preceed the code block they refer to.
-#         - Package's name must exactly match filename with no extension
-#           eg. filename: testcase.py -> package name: testcase
-# @details
-#   Here are some details!
+"""!@file PrivateChatServer.py
 
-"""PrivateChatServer.
+@brief Console Chat Server implementation.
 
-This is the API for the PrivateChatServer for the app.
+@details
+      Detailed testcase description can go here.
+         Notice:
+         - All Doxygen comment blocks must start with ##
+         - Comments must preceed the code block they refer to.
+         - Package's name must exactly match filename with no extension
+           eg. filename: testcase.py -> package name: testcase
 
-This script contains the main exception classes that are called during
-testing. The aim is to reduce boilerplate within the actual test case
-itself. We're following a MVC design pattern for the API where this is
-the View and Controller for the testing.
 """
-
 import os
 import re
 import sys
@@ -30,7 +23,7 @@ from optparse import OptionParser
 
 class UnsupportedChatProtocolException(RuntimeError):
     
-    """This error occurred because it did."""
+    """!@brief This error occurred because it did."""
     
     pass
 

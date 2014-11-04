@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project pyqt-multithreaded-chat -->
-<!-- Saved: 2014-11-03, 23:23:24 -->
+<!-- Saved: 2014-11-04, 00:01:14 -->
 <!-- Copyright (C) 2014 Will Flores, waflores@ncsu.edu -->
 <Project version="4.6">
   <Language>en</Language>
@@ -13,6 +13,7 @@
   <Email>waflores@ncsu.edu</Email>
   <Sources>
     <Source>__init__.py</Source>
+    <Source>py_app/PrivateChatServer.py</Source>
   </Sources>
   <Forms>
   </Forms>
